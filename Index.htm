@@ -1,0 +1,79 @@
+<html>
+    <header>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+            
+    </header>
+
+    <div class="front-main">
+        <div class="front">
+        
+            <h1>B &nbsp;A &nbsp;D &nbsp;R &nbsp;&ensp;A &nbsp;F &nbsp;R &nbsp;I &nbsp;D &nbsp;I </h1>    
+            <h3>W E B &nbsp; D E V E L O P E R</h3>
+
+            <div class="btns">
+                <a href="#about"><button>ABOUT</button></a>
+                <a href="#work"><button>WORK</button></a>
+                <a href="#contact"><button>CONTACT</button></a>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="pic-wrap">
+            <img class="mypic" src="xxc.jpg">
+        </div>
+        <div class="desc-wrap">
+            <div class="desc">Hello! This is Badr Afridi. I'm Software Engineering student and currently my learning medium is Web. I have a dream of becoming a full stack developer one day.</div>
+        </div>
+
+    </div>
+    <div class="work" id="work">
+        <h1 class="work-desc">Work</h1>
+        <div class="projects">
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div>
+            <div class="project"></div> 
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <p>Email me with any suggestions, collaborations or just to talk!</p>
+        <p>Badrafridi1@gmail.com</p>
+        <div class="media">
+            <a href=""><span class="fab fa-codepen"></span></a>
+            <a href=""><span class="fab fa-facebook"></span> </a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+        </div>
+
+
+    </div>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+          } else {
+            document.getElementById("myBtn").style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        
+
+
+
+</html>

@@ -1,0 +1,232 @@
+
+
+body,a{
+    margin:0;
+    text-decoration: none;
+    width:100%;
+    
+}
+.front-main{
+
+
+}
+div.front{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("pic.jpg");
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    width:100%;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 5px;
+    font-size: 2.1em;
+
+}
+
+h3{
+   font-size: 0.4em;
+   font-family: 'Merienda', cursive;
+    color:rgb(177, 177, 177);
+}
+h1.work-desc{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+.mypic{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about{
+    display:flex;
+    width:100%;
+    padding: 11rem 0;
+    align-items: center;
+    flex:1 1 40%;
+
+}
+.desc{
+    width:80%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5em;
+    font-size:1.5em;
+}
+.pic-wrap{
+    display:flex;
+    flex:1 1 40%;
+    justify-content: center;
+    align-items:center;
+}
+.desc-wrap{
+
+    flex:1 1 40%;
+
+}
+button{
+    height: 40px;
+    width:150px;
+    margin:10px;
+    font-size:0.6em;
+    background:transparent;
+    color:rgb(185, 152, 80);
+    border-color:rgb(185, 152, 80);
+    border-width: thin;
+    border-radius: 8px;
+    border:1px solid;
+
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: rgb(185, 152, 80); 
+    color: grey;
+  }
+.work{
+    background-color: rgb(185, 152, 80);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding:3rem 0;
+}
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    margin:20px;
+    justify-content: center;
+    width:70%;
+}
+.project{
+    background-color: aliceblue;
+    height:30%;
+    width:25%;
+    margin:20px;
+    border-radius:8px;
+}
+.contact {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:8rem 0;
+    background-color:rgb(31, 26, 26);
+    color:white;
+    flex-direction: column;
+    text-align: center;
+
+}
+p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.3em;
+
+    width:80%;
+}
+.media{
+    display:flex;
+    flex-direction: row;
+
+}
+i{
+    margin: 10px;
+    border:1px white solid;
+    color:white;
+    border: none;
+    
+}
+span{
+    font-size:35px;  
+    margin:10px;   
+    color:white;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 1px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-size:  18px; /* Increase font size */
+    width:80px;
+    height:40px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
+
+ /* @media only screen and (max-width:500px){
+    .project{
+        width: 80%;
+        height: 30%;
+
+    }
+}*/
+  @media only screen and (max-width:538px){
+    .btns{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+  }
+  /*
+  @media only screen and (max-width:585px){
+    .project{
+        width:100%;
+    }
+  }*/
+  @media only screen and (max-width:720px){
+  
+    .about{
+        flex-direction:column;
+      
+    }
+    .desc-wrap{
+        padding-left:100px;
+        padding-top:20px;
+    }
+    div.front{
+        font-size:1.1em;
+    }
+    .project{
+        width:55%;
+
+    }
+    .projects{
+        width:85%
+    }
+  }
+ 
+  @media only screen and (max-width:860px){
+    .projects{
+        width: 85%;
+
+    }
+ /*
+  }
+  @media only screen and (max-width:1200px){
+    .project{
+        width:30%;
+    }
+
+  }
+  */
